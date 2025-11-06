@@ -1,0 +1,203 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+
+
+}
+.menu{
+    border-right: 1.5px solid rgb(235, 235, 235);
+    width: 21%;
+    height: 100vh;
+    box-shadow: 0 0px 0px 2px rgba(240, 240, 240, 0.3);
+}
+.dash-body{
+    width: 79%;
+    height: 100vh;
+}
+
+.menu-container{
+    width: 100%;
+    border-spacing: 0;
+    
+}
+
+.profile-title{
+    font-weight: 500;
+    color: #161c2d;
+    font-size: 22px;
+    margin: 0;
+    text-align: left;
+    padding-left: 8%;
+}
+
+.profile-subtitle{
+    font-weight: 300;
+    color: #8492a6;
+    font-size: 15px;
+    margin: 0;
+    text-align: left;
+    padding-left: 8%;
+}
+
+.logout-btn{
+    margin-top: 30px;
+    width: 85%;
+}
+
+.profile-container{
+    border-bottom: 1.5px solid rgb(235, 235, 235);
+    /*border-radius: 6px;*/
+    padding-top: 18%;
+    padding-bottom: 12%;
+    /*box-shadow: 0 0 3px rgba(52,58,64,0.08);*/
+    text-align: center;
+    
+}
+
+
+/*.menu-items1{
+    font-weight: 500;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    color: #161c2def;
+    
+}
+
+.menu-td1{
+    padding-right: 10px;
+}
+
+
+.menu-button:hover{
+    cursor: pointer;
+    background-color:var(--btnice);
+}
+
+.menu-active{
+    color:var(--btnnicetext);
+    
+}
+
+.menu-items1-active{
+    color:var(--btnnicetext);
+    background-image: url('../img/search.svg');
+    background-position: 10px 50%;
+    background-repeat: no-repeat;
+}
+
+
+
+*/
+
+
+/* General Menu Button Styles - Assume these exist */
+.menu-btn{
+    /* Existing styles... */
+    background-repeat: no-repeat;
+    background-position: 25px center; /* Example position */
+    background-size: 20px 20px; /* Example size */
+    padding-left: 60px; /* Adjust based on icon position and size */
+}
+
+
+/* Existing Icon Styles */
+.menu-icon-dashbord{
+    background-image: url('../img/icons/dashboard-iceblue.svg');
+}
+.menu-icon-dashbord-active{
+    background-image: url('../img/icons/dashboard-white.svg');
+}
+
+
+.menu-icon-doctor{
+    background-image: url('../img/icons/doctors-iceblue.svg');
+}
+.menu-icon-doctor-active{
+    background-image: url('../img/icons/doctors-white.svg');
+}
+
+.menu-icon-schedule{
+    background-image: url('../img/icons/schedule-iceblue.svg');
+}
+.menu-icon-schedule-active{
+    background-image: url('../img/icons/schedule-white.svg');
+}
+
+.menu-icon-appoinment{
+    background-image: url('../img/icons/book-iceblue.svg');
+}
+.menu-icon-appoinment-active{
+    background-image: url('../img/icons/book-white.svg');
+}
+
+.menu-icon-patient{
+    background-image: url('../img/icons/patients-iceblue.svg');
+}
+.menu-icon-patient-active{
+    background-image: url('../img/icons/patients-white.svg');
+}
+
+.menu-icon-settings{
+    background-image: url('../img/icons/settings-iceblue.svg');
+}
+.menu-icon-settings-active{
+    background-image: url('../img/icons/settings-white.svg');
+}
+
+.menu-icon-session{
+    background-image: url('../img/icons/session-iceblue.svg');
+}
+.menu-icon-session-active{
+    background-image: url('../img/icons/session-iceblue-active.svg'); /* Assuming there's an active version */
+}
+
+.menu-icon-home{
+    background-image: url('../img/icons/home-iceblue.svg');
+}
+.menu-icon-home-active{
+    background-image: url('../img/icons/home-white.svg');
+}
+
+/* *** START OF UPDATED PRESCRIPTION ICON STYLES *** */
+.menu-icon-prescription{
+    background-image: url('../img/icons/prescription-iceblue.svg'); /* Using your new icon */
+}
+.menu-icon-prescription-active{
+    background-image: url('../img/icons/prescription-iceblue-active.svg'); /* Using your new active icon */
+}
+/* *** END OF UPDATED PRESCRIPTION ICON STYLES *** */
+
+
+.heading-main12{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.heading-sub12{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: right;
+}
+
+
+.header-search{
+    display: flex;
+    justify-content: center;
+
+    
+}
+.header-searchbar{
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.705);
+    border: 0.5px solid rgba(190, 190, 190, 0.884);
+    
+    
+}
+
+.add-doc-form-container{
+    padding: 25px;
+    margin-top: 30px;
+    
+}
